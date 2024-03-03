@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #186B8C;
+    --cor1: #55CCD9;
+    --cor2: #14488C;
+    --cor3: #66A3F2;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+}
+
+section > h1 {
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+}
+
+section > p {
+    padding: 10px;
+}
+
+form > p {
+    margin: 3px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    border: 1px solid var(--cor2);
+
+}
+
+form > p.login  {
+    background-color: var(--cor2);
+    padding: 1px;
+    
+}
+
+form > p > input {
+    background-color: var(--cor3);
+    position: relative;
+    width: 92%;
+    height: 38px;
+    border-radius: 7px;
+    padding-left: 5px;
+    
+}
+
+form > p > input:focus {
+    background-color: white;
+}
+
+form > p > input#ilogin {
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+form > p > input#ilogin:hover {
+    background-color: var(--cor2);
+    transition: 0.3s;
+    color: white;
+}
+
+
+form > p > input.button {
+    width: 100%;
+    background-color: white;
+    font-size: 1em;
+}
+
+form > p > input.button:hover {
+    background-color: var(--cor2);
+    transition: 0.3s;
+    color: white;
+}
