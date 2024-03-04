@@ -8,9 +8,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
+
+        <section id="imagem-login">
+
+        </section>
+
         <section id="login">
             <h1>Login</h1>
             <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta ou cadastre-se.</p>
@@ -19,13 +25,13 @@
                     <label for="iemail"><span class="material-symbols-sharp" style="color: white;">
                         person
                         </span></label>
-                    <input type="email" name="email" id="iemail" required autocomplete="email">
+                    <input type="email" name="email" id="iemail" required autocomplete="email" placeholder="insira seu email">
                 </p>
                 <p class="login">
                     <label for="isenha"><span class="material-symbols-sharp" style="color: white;">
                         key
                         </span></label>
-                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="16">
+                        <input type="password" name="senha" id="isenha" required minlength="8" maxlength="16" placeholder="insira sua senha">
                 </p>
                 <p>
                     <input type="submit" value="Entrar" id="ilogin">
@@ -37,9 +43,6 @@
                     <input type="button" value="Cadastre-se aqui" class="button">
                 </p>
             </form>
-        </section>
-        <section id="imagem-login">
-            
         </section>
     </main>
 </body>
