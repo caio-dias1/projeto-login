@@ -19,7 +19,6 @@
     
     main {
         width: 90vw;
-        max-width: 1000px;
     }
 
     section#imagem-login {
@@ -45,6 +44,6 @@
     }
 
     form > p > input {
-        width: 92%;
+        width: 92.7%;
     }
 }
