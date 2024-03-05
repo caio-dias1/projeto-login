@@ -12,6 +12,10 @@
         height: 500px;
     }
 
+    form > p > input {
+        width: 95%;
+    }
+
 
 }
 
@@ -37,6 +41,6 @@
     }
 
     form > p > input {
-        width: 92.3%;
+        width: 95.7%;
     }
 }
